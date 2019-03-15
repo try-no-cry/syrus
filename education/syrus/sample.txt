@@ -1,0 +1,21 @@
+CREATE TABLE login(
+     id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+     name varchar(256) not null,
+    school text not null,
+    email varchar(256) not null,
+    district varchar(256) not null,
+    qualif varchar(256) not null,
+    pwd varchar(256) not null
+    
+);
+
+CREATE TABLE teachers(
+   id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+   
+    email varchar(256) not null,
+     name varchar(256) not null,
+    training text not null,
+    quizScore int(11) not null,
+
+);
+
